@@ -7,6 +7,6 @@
 6. [React Props](https://github.com/liyayun713/React/blob/master/lesson/Props.md)
 7. [React 组件API](https://github.com/liyayun713/React/blob/master/lesson/ComponentAPI.md)
 8. [React 组件生命周期](https://github.com/liyayun713/React/blob/master/lesson/Lifecycle.md)
-9. React Ajax
+9. [React Ajax](https://github.com/liyayun713/React/blob/master/lesson/Ajax.md)
 10. React 表单与事件
 11. React Refs
