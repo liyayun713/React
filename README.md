@@ -9,4 +9,4 @@
 8. [React 组件生命周期](https://github.com/liyayun713/React/blob/master/lesson/Lifecycle.md)
 9. [React Ajax](https://github.com/liyayun713/React/blob/master/lesson/Ajax.md)
 10. [React 表单与事件](https://github.com/liyayun713/React/blob/master/lesson/FormEvent.md)
-11. React Refs
+11. [React Refs](https://github.com/liyayun713/React/blob/master/lesson/Refs.md)
