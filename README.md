@@ -1,5 +1,5 @@
 # React.js Notes
-1. [React Introduction](https://github.com/liyayun713/React/blob/master/lesson/React.md)
+1. [React Introduction](https://github.com/liyayun713/React/blob/master/lesson/Introduction.md)
 2. [React 安装](https://github.com/liyayun713/React/blob/master/lesson/Installation.md)
 3. [React JSX](https://github.com/liyayun713/React/blob/master/lesson/JSX.md)
 4. [React 组件](https://github.com/liyayun713/React/blob/master/lesson/Component.md)
