@@ -13,6 +13,7 @@
 11. [React Refs](https://github.com/liyayun713/React/blob/master/lesson/Refs.md)
 
 ### 官方 API
+* State & 生命周期
 * 事件处理
 * 条件渲染
 * 列表 & Keys
