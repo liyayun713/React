@@ -143,3 +143,44 @@ React 具有强大的组合模型，我们建议使用组合而不是继承来�
 如果要在组件之间复用 UI 无关的功能，我们建议将其提取到单独的 JavaScript 模块中。这样可以在不对组件进行扩展的前提下导入并使用该函数、对象或类。
 
 ### React 理念
+
+### React 的 diff 算法
+
+### React-Router 路由
+当页面比较多时，项目就会变得越来越大，尤其对于单页面应用来说，初次渲染的速度就会很慢，这时候就需要`按需加载`，只有切换到页面的时候才去加载对应的js文件。react配合webpack进行按需加载的方法很简单，Route的component改为getComponent，组件用require.ensure的方式获取，并在webpack中配置chunkFilename。
+
+```jsx
+const chooseProducts = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('../Component/chooseProducts').default)
+    },'chooseProducts')
+}
+
+const helpCenter = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('../Component/helpCenter').default)
+    },'helpCenter')
+}
+
+const saleRecord = (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('../Component/saleRecord').default)
+    },'saleRecord')
+}
+
+const RouteConfig = (
+    <Router history={history}>
+        <Route path="/" component={Roots}>
+            <IndexRoute component={index} />//首页
+            <Route path="index" component={index} />
+            <Route path="helpCenter" getComponent={helpCenter} />//帮助中心
+            <Route path="saleRecord" getComponent={saleRecord} />//销售记录
+            <Redirect from='*' to='/'  />
+        </Route>
+    </Router>
+);
+```
+
+### 组件通信
+
+### React-Redux
