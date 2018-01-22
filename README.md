@@ -72,5 +72,8 @@ class NameForm extends React.Component {
 }
 ```
 ### 状态提升
+使用 react 经常会遇到几个组件需要共用状态数据的情况。这种情况下，我们最好将这部分共享的状态提升至他们最近的父组件当中进行管理
+
+在我们改写 `Calculator` 组件之前，我们先花点时间总结下 `TemperatureInput` 组件的改变。我们将其自身的 `state` 从组件中移除，使用 `this.props.temperature` 替代 `this.state.temperature` ，当我们想要响应数据改变时，使用父组件提供的 `this.props.onTemperatureChange()` 而不是 `this.setState()` 方法
 ### 组合 vs 继承
 ### React 理念
