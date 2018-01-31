@@ -1,6 +1,6 @@
 # React.js Notes
 ## React 高级指引
-1. 深入JSX
+1. [深入JSX](https://github.com/liyayun713/React/blob/master/lesson/senior-jsx.md)
 2. 使用 PropTypes 检查类型
 3. 静态类型检查
 4. Refs & DOM
