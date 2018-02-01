@@ -5,7 +5,7 @@
 3. 静态类型检查（建议使用 Flow 或者 TypeScript 来替代 PropTypes。）
 4. [Refs & DOM](https://github.com/liyayun713/React/blob/master/lesson/refs-dom.md)
 5. 非受控组件
-6. 性能优化
+6. [性能优化](https://github.com/liyayun713/React/blob/master/lesson/performance-optimization.md)
 7. ……
 
 ## runoob
