@@ -6,7 +6,8 @@
 4. [Refs & DOM](https://github.com/liyayun713/React/blob/master/lesson/refs-dom.md)
 5. 非受控组件
 6. [性能优化](https://github.com/liyayun713/React/blob/master/lesson/performance-optimization.md)
-7. ……
+7. [不适用ES6](https://github.com/liyayun713/React/blob/master/lesson/`.md)
+8. [不适用JSX](https://github.com/liyayun713/React/blob/master/lesson/without-jsx.md)
 
 ## runoob
 1. [React Introduction](https://github.com/liyayun713/React/blob/master/lesson/Introduction.md)
