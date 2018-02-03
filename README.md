@@ -1,4 +1,11 @@
 # React.js Notes
+## React Router
+
+## 构建项目
+1. create-react-app脚手架
+2. generator-react-webpack（基于yeoman）
+2. 手动配置webpack
+
 ## React 高级指引
 1. [深入JSX](https://github.com/liyayun713/React/blob/master/lesson/senior-jsx.md)
 2. 使用 PropTypes 检查类型
