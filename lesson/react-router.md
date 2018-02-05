@@ -16,6 +16,7 @@ ReactDOM.render(
 );
 ```
 ### exact
+精确匹配
 
 ### NavLink
 1. import {NavLink} from 'react-router-dom';
@@ -33,8 +34,30 @@ const NavBar = () =>(
 export default NavBar;
 ```
 2. NavLink的常用选项
+* activeClassName 激活状态
 
 ### 404设置和跳转
+* Switch组件
+* Redirect
+
+```jsx
+ReactDOM.render(
+    <Router>
+        <div>
+            <NavBar />
+            <Switch>
+                <Route path="/" component={RouterA} exact />
+                <Route path="/b" component={RouterB} />
+                <Route path="/c" component={RouterC} />
+                <Redirect from="/redirect" to="/b" />
+                {/* 找不到跳到Error，在最下面 */}
+                <Route component={Error} />
+            </Switch>
+        </div>
+    </Router>,
+    document.getElementById('app')
+)
+```
 
 ### 路由传值
 
