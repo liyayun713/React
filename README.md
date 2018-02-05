@@ -50,6 +50,7 @@ export default NavBar;
 6. [性能优化](https://github.com/liyayun713/React/blob/master/lesson/performance-optimization.md)
 7. [不使用ES6](https://github.com/liyayun713/React/blob/master/lesson/without-es6.md)
 8. [不使用JSX](https://github.com/liyayun713/React/blob/master/lesson/without-jsx.md)
+9. [协调（Reconciliation）](https://github.com/liyayun713/React/blob/master/lesson/reconciliation.md)
 
 ## runoob
 1. [React Introduction](https://github.com/liyayun713/React/blob/master/lesson/Introduction.md)
