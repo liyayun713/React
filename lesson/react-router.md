@@ -79,6 +79,18 @@ Router中的Route上定义
 </div>
 ```
 
-### Router中的属性和路由模式
+### Router中的属性
+* basename 层级（功能划分时可以使用）
+* forceRefresh 强制刷新 true or false （路由效果不起作用，）
+
+### 路由模式
+5种路由模式
+
+1. BrowserRouter 默认
+2. HashRouter （刷新可以找到路径）
+3. MemoryRouter 内存路由模式，地址栏不跳转
+4. NativeRouter 原生，React-Native使用
+5. StaticRouter 静态路由，SSR使用
 
 ### prompt用法
+
