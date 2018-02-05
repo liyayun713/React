@@ -60,6 +60,24 @@ ReactDOM.render(
 ```
 
 ### 路由传值
+NavLink 上传入值
+```jsx
+<NavLink to="/c/008/Tony Li" activeClassName="active-state">C 路由</NavLink> ||&nbsp;
+```
+
+Router中的Route上定义
+```jsx
+<Route path="/c/:id/:name" component={RouterC} />
+```
+
+组件中取值
+```jsx
+<div>
+    <div>Router C</div>
+    <div>ID: {this.props.match.params.id}</div>
+    <div>Name: {this.props.match.params.name}</div>
+</div>
+```
 
 ### Router中的属性和路由模式
 
