@@ -1,7 +1,7 @@
 # React.js Notes
 ## React Router
 1. [react-router笔记](https://github.com/liyayun713/React/blob/master/lesson/react-router.md)
-2. [react-router-training](https://github.com/liyayun713/React/blob/master/lesson/react-router-training.md)
+2. [react-router-training](https://github.com/liyayun713/React/blob/master/lesson/react-router-training/home.md)
 
 ## 构建项目
 1. create-react-app脚手架
