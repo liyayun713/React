@@ -83,7 +83,9 @@ class Login extends React.Component {
 		redirectToReferrer: false
 	}
 	login = () => {
-		this.setState({redirectToReferrer: true})
+		fakeAuth.authenticate(() => {
+			this.setState({redirectToReferrer: true})
+		})
 	}
 	render () {
 		console.log(this.props);
